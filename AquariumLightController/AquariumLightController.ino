@@ -1,13 +1,28 @@
 // AUTOMATED LIGHT CONTROLLER FOR CURRENT USA SATELLITE FRESHWATER LED+ AQUARIUM LIGHT 
 // http://current-usa.com/aquarium-led-lights/satellite-freshwater-led-plus/
 //
+// Developed targeting a SainSmart UNO R3
+//
 // Required Libraries:
 //   Arduino-IRremote: https://github.com/shirriff/Arduino-IRremote
 //   Time: http://www.pjrc.com/teensy/td_libs_Time.html 
 //   LiquidCrystal: http://arduino.cc/en/Reference/LiquidCrystal
 //
-// Developed by Ryan Rondeau targeting a SainSmart UNO R3
+// Copyright (C) 2014  Ryan W Rondeau
 //
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along
+// with this program; if not, write to the Free Software Foundation, Inc.,
+// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 #include <IRremote.h>
 #include <LiquidCrystal.h>
